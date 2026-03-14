@@ -13,6 +13,6 @@ make CMAKE_BUILD_TYPE=Release
 make install
 
 git clone -b server https://github.com/Henriklmao/Neovim-Dotfiles.git
-mv Neovim-Dotfiles ~/.config/nvim
+mv Neovim-Dotfiles/* ~/.config/nvim
 ```
 ````
