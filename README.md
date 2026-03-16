@@ -7,11 +7,13 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 # Optional
 sudo apt install make cmake
 
+# Proper NVIM install
 git clone <https://github.com/neovim/neovim.git>
 cd neovim
 make CMAKE_BUILD_TYPE=Release
 make install
 
+# Install Config
 git clone -b server https://github.com/Henriklmao/Neovim-Dotfiles.git
 mv Neovim-Dotfiles/* ~/.config/nvim
 ```
